@@ -99,7 +99,7 @@ public class PloyGame extends Game implements Serializable {
 				gameInfo = blackPlayer.isWinner() ? "black won" : "white won";
 		}
 
-		return gameInfo; 
+		return gameInfo;
 	}
 
 	@Override
